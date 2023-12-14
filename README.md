@@ -1,1 +1,1 @@
-Secon Semester in first year
+Second Semester in first year and I'm knee deep in java after formatting most of what I learnt in Cpp over the short holiday, but anyway this was our project for this semester and I DID MY BEST even though the lecturer didn't even scrutinise my work like I was expecting
