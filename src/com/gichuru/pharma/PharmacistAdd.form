@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.gichuru.pharma.PharmacistAdd">
+  <grid id="27dc6" binding="pnlPanel" layout-manager="GridLayoutManager" row-count="9" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="926" height="529"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="54fc9" class="javax.swing.JLabel" binding="lblDname">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Drug Name"/>
+        </properties>
+      </component>
+      <component id="18aa4" class="javax.swing.JTextField" binding="txtDname">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="15"/>
+        </properties>
+      </component>
+      <component id="de8e2" class="javax.swing.JTextField" binding="txtQuantity">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="15"/>
+        </properties>
+      </component>
+      <component id="4294a" class="javax.swing.JTextField" binding="txtUnitPrice">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="15"/>
+        </properties>
+      </component>
+      <component id="7f663" class="javax.swing.JLabel" binding="lblForm">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Form"/>
+        </properties>
+      </component>
+      <component id="b3e83" class="javax.swing.JComboBox" binding="cmbForm">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="Tablets"/>
+            <item value="Capsules"/>
+            <item value="Syrups"/>
+            <item value="Creams"/>
+            <item value="Ointments"/>
+            <item value="Injections"/>
+            <item value="Aerosols"/>
+            <item value="Nebulizers"/>
+            <item value="Eye Drops"/>
+            <item value="Ear Drops"/>
+          </model>
+        </properties>
+      </component>
+      <component id="ed069" class="javax.swing.JLabel" binding="lblExpire">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Expiration Date"/>
+        </properties>
+      </component>
+      <component id="e3075" class="com.github.lgooddatepicker.components.DatePicker" binding="dtExp">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <inheritsPopupMenu value="false"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+      </component>
+      <hspacer id="54c37">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="8ef3" class="javax.swing.JLabel" binding="lblManufacturer">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Manufacturer"/>
+        </properties>
+      </component>
+      <component id="c353d" class="javax.swing.JTextField" binding="txtManufacturer">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="15"/>
+        </properties>
+      </component>
+      <component id="a2a72" class="javax.swing.JLabel" binding="lblQuantity">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quantity"/>
+        </properties>
+      </component>
+      <component id="a175" class="javax.swing.JLabel" binding="lblUnitPrice">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Unit Price"/>
+        </properties>
+      </component>
+      <component id="787b6" class="javax.swing.JLabel" binding="lblSupplier">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Supplier"/>
+        </properties>
+      </component>
+      <component id="63f69" class="javax.swing.JTextField" binding="txtSupplier">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="15"/>
+        </properties>
+      </component>
+      <component id="479ce" class="javax.swing.JLabel" binding="lblDateofPurchase">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Date of Purchase"/>
+        </properties>
+      </component>
+      <component id="8233c" class="com.github.lgooddatepicker.components.DatePicker" binding="dtPurchase">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="26f3" class="javax.swing.JTextArea" binding="txtArea">
+        <constraints>
+          <grid row="5" column="6" row-span="2" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="15"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="a1f3" class="javax.swing.JButton" binding="btnClear">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Clear "/>
+        </properties>
+      </component>
+      <component id="d1fa2" class="javax.swing.JButton" binding="btnSubmit">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <hspacer id="51242">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="4badf" class="javax.swing.JButton" binding="btnExit">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-57344"/>
+          <enabled value="true"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="4051c" class="javax.swing.JLabel" binding="lblComments">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Notes / Comments"/>
+        </properties>
+      </component>
+      <component id="76c48" class="javax.swing.JLabel" binding="lblWelcome">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Welcome Pharmacist, Add Drugs "/>
+        </properties>
+      </component>
+      <component id="18c0a" class="javax.swing.JButton" binding="btnLogout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-65541"/>
+          <borderPainted value="false"/>
+          <foreground color="-65541"/>
+          <icon value="com/gichuru/pharma/logout.png"/>
+          <text value=""/>
+          <toolTipText value="Logout"/>
+        </properties>
+      </component>
+      <component id="fa46" class="javax.swing.JButton" binding="btnBack">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16735729"/>
+          <enabled value="true"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
